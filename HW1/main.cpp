@@ -4,7 +4,7 @@
 //+800 to center image vertically
 int main() {
   int offset = 400; //centers ellipse
-  BMP ellipse(800,800,false);
+  BMP ellipse(800,800,false); //creates an 800x800 box for ellipse
   
   int xR = 768; //radius x
   int x = 0;
