@@ -1,3 +1,0 @@
-Included reading pdf
-https://www.geeksforgeeks.org/midpoint-ellipse-drawing-algorithm/
-https://www.javatpoint.com/computer-graphics-midpoint-ellipse-algorithm
