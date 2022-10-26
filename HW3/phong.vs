@@ -16,5 +16,6 @@ void main()
   // Remember to set gl_Position (correctly) or you will get a black screen...
   FragPos = vec3(model*vec4(position, 1.0)); //sets up position
   gl_Position = projection * view * model * vec4(position,1.0);
-  Normal = mat3(transpose(inverse(model)))*normal; //sets up normal vectors for diffuse lighting calculation, = normal
+////
+  Normal = mat3(transpose(inverse(model))) * normal; //sets up normal vectors for diffuse lighting calculation
 } 
