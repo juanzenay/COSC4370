@@ -13,9 +13,7 @@ uniform mat4 projection;
 void main()
 {
   // TODO: Your code here
-  // Remember to set gl_Position (correctly) or you will get a black screen...
-  FragPos = vec3(model*vec4(position, 1.0)); //sets up position
-  gl_Position = projection * view * model * vec4(position,1.0);
-////
+  FragPos = vec3(model*vec4(position, 1.0)); //set up for lighting fragments
+  gl_Position = projection * view * model * vec4(position,1.0); //camera position
   Normal = mat3(transpose(inverse(model))) * normal; //sets up normal vectors for diffuse lighting calculation
 } 

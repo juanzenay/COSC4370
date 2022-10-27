@@ -198,7 +198,7 @@ int main()
         // TODO: set up the project matrix
       //this creates a projection matrix to view the cube
         float aspect = (GLfloat)800/600;
-        projection = glm::perspective(45.0f,aspect, 0.01f, 100.0f); //800 and 600 are window dimensions
+        projection = glm::perspective(45.0f,aspect, 0.01f, 100.0f); //fov, 800 and 600 are window dimensions for aspect ratio of camera, .01 and 100 are clipping points
 
 
         // Get the uniform locations

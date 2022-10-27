@@ -68,7 +68,7 @@ public:
 //referenced https://learnopengl.com/code_viewer_gh.php?code=includes/learnopengl/camera.h
     glm::mat4 GetViewMatrix()
     {
-      return glm::lookAt(Position, (Position + Front), Up);
+      return glm::lookAt(Position, (Position + Front), Up); //gives view matrix
     }
 
     // Processes input received from any keyboard-like input system. Accepts input parameter in the form of camera defined ENUM (to abstract it from windowing systems)
