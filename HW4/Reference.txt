@@ -1,0 +1,10 @@
+For openGL syntax
+https://registry.khronos.org/OpenGL-Refpages/gl4/html/glGenBuffers.xhtml
+https://registry.khronos.org/OpenGL-Refpages/gl4/html/glBindBuffer.xhtml
+https://registry.khronos.org/OpenGL-Refpages/gl4/html/glBufferData.xhtml
+https://registry.khronos.org/OpenGL-Refpages/gl4/html/glVertexAttribPointer.xhtml
+https://registry.khronos.org/OpenGL-Refpages/gl4/html/glEnableVertexAttribArray.xhtml
+https://registry.khronos.org/OpenGL-Refpages/gl4/html/glBindTexture.xhtml
+
+For understanding how texture application works
+https://learnopengl.com/Getting-started/Textures
